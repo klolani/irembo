@@ -36,7 +36,7 @@ We're using Docker and kubernetes to run this project locally
 * Create a Redis namespace: `kubectl create namespace data`
 * Deploy default redis chart in different namespace:
   - `helm repo add bitnami https://charts.bitnami.com/bitnami`
-  - `helm install bitnami/redis`
+  - `helm install redis bitnami/redis`
 * Confirm pods working as expected: `kubectl get all`
 
 Notes:
