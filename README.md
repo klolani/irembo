@@ -1,5 +1,5 @@
 # Hello world
-[My design document goes here](https://docs.google.com/document/dummy_design_doc
+[My design document would go here](https://docs.google.com/document/dummy_design_doc)
 
 This project runs a simple nodejs app, welcoming you all to Kenn's world
 
@@ -59,11 +59,12 @@ Notes:
 - Each environment is deployed in its own cluster and namespaces
 
 ### Understanding the project
-_Prerequisite: General understanding of nodejs_
-_General understanding of command line use including kubectl_
-_General understanding of command line use including kubectl_
-_General understanding of command line use including kubectl_
-_General understanding of git_
+_Prerequisite:_
+- General understanding of nodejs_
+- General understanding of command line use including kubectl
+- Specific understanding of Kubernetes primitives and yaml.
+- General understanding of templating
+- General understanding of git
 
 **The approach and reasons behind my choices**
 * App runs on the nodejs base container which has the required nodejs packages installed.
