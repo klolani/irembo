@@ -1,0 +1,28 @@
+replicaCount: 2
+image:
+  repository: "hello-world"
+  tag: "2.0"
+  pullPolicy: IfNotPresent
+service:
+  type: ClusterIP
+  port: 80
+
+# Scalability and Stability
+replicaCount: 2
+maxReplicaCount: 4
+
+scalingMetrics:
+  targetCPUUtilizationPercentage: 50
+
+maxUnavailablePods: 25%
+
+nodeSelector: {}
+
+tolerations: []
+
+affinity: {}
+
+# Resources requirements
+resources:
+  requests:
+    cpu: 200m
