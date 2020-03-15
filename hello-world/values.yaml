@@ -1,11 +1,11 @@
 replicaCount: 2
 image:
   repository: "hello-world"
-  tag: "2.0"
+  tag: "v1.0.0"
   pullPolicy: IfNotPresent
 service:
   type: ClusterIP
-  port: 80
+  port: 3000
 
 # Scalability and Stability
 replicaCount: 2
